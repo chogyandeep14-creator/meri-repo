@@ -44,6 +44,13 @@
     <style>
       :root {
         color-scheme: light;
+        scroll-behavior: smooth;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        :root {
+          scroll-behavior: auto;
+        }
       }
 
       body {
@@ -236,7 +243,7 @@
               Heritage Jaipur Craftsmanship Meets Modern Export Quality
             </h2>
             <p class="mt-4 max-w-2xl text-base leading-7 text-slate-600">
-              From our export hub in Jaipur, India, we supply high-quality pure cotton bedsheets to importers, distributors, and hospitality buyers across the USA.
+              Rooted in Jaipur, Rajasthan, HG Home Textile brings the region’s textile craftsmanship to international wholesale buyers. We pair premium, skin-friendly 100% cotton home textiles with careful production oversight, dependable export standards, and responsive B2B service.
             </p>
           </div>
 
@@ -294,18 +301,48 @@
             </div>
           </div>
 
-          <section aria-labelledby="leadership-title" class="mt-10 border-t border-[#d8c79f] pt-7 sm:mt-12 sm:pt-8">
+          <section aria-labelledby="leadership-title" class="mt-12 border-t border-[#d8c79f] pt-8 sm:mt-16 sm:pt-10">
             <p class="text-[11px] font-semibold uppercase tracking-[0.16em] text-[#8b7044]">Management &amp; Leadership</p>
-            <h3 id="leadership-title" class="mt-2 font-display text-2xl font-medium text-ink">Personal leadership. Trusted partnerships.</h3>
-            <ul class="mt-5 grid gap-4 sm:grid-cols-2">
-              <li class="border border-stone-200 bg-white p-5">
-                <p class="font-display text-xl font-medium text-ink">Gyandeep</p>
-                <p class="mt-1 text-sm font-medium text-slate-600">Founder &amp; Proprietor</p>
-              </li>
-              <li class="border border-stone-200 bg-white p-5">
-                <p class="font-display text-xl font-medium text-ink">Himanshu Singh</p>
-                <p class="mt-1 text-sm font-medium text-slate-600">Co-Founder</p>
-              </li>
+            <h3 id="leadership-title" class="mt-2 font-display text-2xl font-medium text-ink sm:text-3xl">People behind every partnership</h3>
+            <div class="mt-6 grid gap-5 lg:grid-cols-2">
+              <article class="overflow-hidden border border-stone-200 bg-white shadow-sm sm:grid sm:grid-cols-[0.85fr_1.15fr]">
+                <img
+                  class="h-64 w-full object-cover object-[center_35%] sm:h-full sm:min-h-[320px]"
+                  src="Gyandeep_Website_photo.png"
+                  alt="Gyandeep, Founder and Proprietor of HG Home Textile, in a black shirt"
+                  loading="lazy"
+                />
+                <div class="p-5 sm:p-6">
+                  <p class="text-[10px] font-semibold uppercase tracking-[0.16em] text-[#8b7044]">Founder &amp; Proprietor</p>
+                  <h4 class="mt-2 font-display text-2xl font-medium text-ink">Gyandeep</h4>
+                  <p class="mt-4 text-sm leading-6 text-slate-600">“My vision is to bring authentic Jaipur craftsmanship and premium 100% cotton home textiles directly to global wholesale buyers, with trusted export standards at every step.”</p>
+                </div>
+              </article>
+              <article class="overflow-hidden border border-stone-200 bg-white shadow-sm sm:grid sm:grid-cols-[0.85fr_1.15fr]">
+                <img
+                  class="h-64 w-full object-cover object-[center_35%] sm:h-full sm:min-h-[320px]"
+                  src="linkedinprofilephoto.jpeg"
+                  alt="Himanshu Singh, Co-Founder of HG Home Textile, in a white shirt and blazer"
+                  loading="lazy"
+                />
+                <div class="p-5 sm:p-6">
+                  <p class="text-[10px] font-semibold uppercase tracking-[0.16em] text-[#8b7044]">Co-Founder</p>
+                  <h4 class="mt-2 font-display text-2xl font-medium text-ink">Himanshu Singh</h4>
+                  <p class="mt-4 text-sm leading-6 text-slate-600">“I focus on operational excellence, global logistics, sustainable B2B partnerships, and uncompromised quality assurance to help every order move confidently from Jaipur to its destination.”</p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section aria-labelledby="export-commitments-title" class="mt-10 border border-[#d8c79f] bg-[#eee8d9] p-5 sm:mt-12 sm:p-7">
+            <div class="max-w-3xl">
+              <p class="text-[11px] font-semibold uppercase tracking-[0.16em] text-[#8b7044]">Our export commitments</p>
+              <h3 id="export-commitments-title" class="mt-2 font-display text-2xl font-medium text-ink">Craftsmanship with care and accountability</h3>
+            </div>
+            <ul class="mt-5 grid gap-3 text-sm leading-6 text-slate-700 sm:grid-cols-3">
+              <li class="border-l-2 border-brass pl-3"><strong class="block text-ink">Skin-friendly cotton</strong>100% cotton home textiles selected for everyday comfort.</li>
+              <li class="border-l-2 border-brass pl-3"><strong class="block text-ink">AZO-free color</strong>Strict AZO-free, non-toxic dye commitment for responsible textile finishing.</li>
+              <li class="border-l-2 border-brass pl-3"><strong class="block text-ink">Export standards</strong>Quality checks, labeling, and compliance requirements aligned to buyer specifications.</li>
             </ul>
           </section>
         </div>
@@ -692,6 +729,7 @@
             <a href="#home" class="inline-block font-display text-2xl font-semibold text-white">HG Home Textile</a>
             <p class="mt-4 text-sm leading-6 text-gray-400">Pure Jaipur cotton bedsheets, made with care for US wholesale, hospitality, and private-label partners.</p>
             <p class="mt-4 text-sm leading-6"><a class="text-white underline decoration-[#d5b77a] underline-offset-4 transition-colors hover:text-[#d5b77a]" href="mailto:sales@hghometextile.com">sales@hghometextile.com</a></p>
+            <p class="mt-3 text-sm leading-6"><a class="text-white underline decoration-[#d5b77a] underline-offset-4 transition-colors hover:text-[#d5b77a]" href="https://wa.me/918233687279?text=Hello%20HG%20Home%20Textile,%20I%20am%20inquiring%20about%20your%20export%20catalog." target="_blank" rel="noopener noreferrer">WhatsApp: +91-8233687279</a></p>
             <p class="mt-4 text-xs leading-5 text-gray-400"><span class="font-semibold text-white">Leadership:</span> Gyandeep, Founder &amp; Proprietor · Himanshu Singh, Co-Founder</p>
             <p class="mt-5 border-l-2 border-brass pl-3 text-xs leading-5 text-[#d5b77a]">GSTIN: 08EQNPG3041N1ZH | Government Registered Exporter</p>
           </div>
