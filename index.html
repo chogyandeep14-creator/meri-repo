@@ -66,6 +66,15 @@
           transparent 7px
         );
       }
+
+      @media (max-width: 768px) {
+        .founder-profile-image {
+          height: auto;
+          aspect-ratio: 4 / 3;
+          object-fit: contain;
+          background-color: #f1eee5;
+        }
+      }
     </style>
   </head>
   <body class="bg-paper text-ink antialiased">
@@ -307,7 +316,7 @@
             <div class="mt-6 grid gap-5 lg:grid-cols-2">
               <article class="overflow-hidden border border-stone-200 bg-white shadow-sm sm:grid sm:grid-cols-[0.85fr_1.15fr]">
                 <img
-                  class="h-64 w-full object-cover object-[center_35%] sm:h-full sm:min-h-[320px]"
+                  class="founder-profile-image h-64 w-full object-cover object-[center_35%] sm:h-full sm:min-h-[320px]"
                   src="Gyandeep_Website_photo.png"
                   alt="Gyandeep, Founder and Proprietor of HG Home Textile, in a black shirt"
                   loading="lazy"
@@ -320,7 +329,7 @@
               </article>
               <article class="overflow-hidden border border-stone-200 bg-white shadow-sm sm:grid sm:grid-cols-[0.85fr_1.15fr]">
                 <img
-                  class="h-64 w-full object-cover object-[center_35%] sm:h-full sm:min-h-[320px]"
+                  class="founder-profile-image h-64 w-full object-cover object-[center_35%] sm:h-full sm:min-h-[320px]"
                   src="linkedinprofilephoto.jpeg"
                   alt="Himanshu Singh, Co-Founder of HG Home Textile, in a white shirt and blazer"
                   loading="lazy"
